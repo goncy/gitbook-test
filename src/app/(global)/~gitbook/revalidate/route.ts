@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 import { revalidateTags } from '@/lib/cache';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 interface JsonBody {
     tags: string[];

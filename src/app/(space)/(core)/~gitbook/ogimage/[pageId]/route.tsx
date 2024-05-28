@@ -5,7 +5,7 @@ import React from 'react';
 
 import { PageIdParams, fetchPageData } from '../../../../fetch';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 /**
  * Render the OpenGraph image for a space.

@@ -7,7 +7,7 @@ type ProxyRequest = {
     data: Record<string, any>;
 };
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 /**
  * Taken from https://github.com/scalar/scalar/tree/main/packages/api-client-proxy
